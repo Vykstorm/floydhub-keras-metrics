@@ -1,5 +1,5 @@
 ## Introduction
-This repository contains a class definition called FloydhubKerasCallback that can be used to keep track of training phase metrics when deploying your deep learning model on a floydhub server using the keras backend  <br/>
+This repository contains a class definition called FloydhubKerasCallback that can be used to keep track of training phase metrics when deploying your deep learning model on a floydhub server using the Keras. <br/>
 Metrics can later be visualized in your floydhub job panel under "Training metrics" at real time <br/>
 
 
