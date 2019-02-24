@@ -10,6 +10,7 @@ from keras.datasets import mnist
 from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping, ProgbarLogger
 import keras.backend as K
+from train_metrics import FloydhubKerasCallback
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
