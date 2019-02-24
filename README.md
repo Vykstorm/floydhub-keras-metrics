@@ -33,7 +33,7 @@ floyd run --gpu --env keras "python your_script.py"
 ## Example
 
 [example.py](example.py) script defines a deep learning model to classify hand-written digits (it uses the well known MNIST image dataset) <br/>
-Execute the next code to deply and train the model on floyhub
+Execute the next code to deploy and train the model on floyhub
 
 ```
 git clone https://github.com/Vykstorm/floydhub-keras-metrics.git
