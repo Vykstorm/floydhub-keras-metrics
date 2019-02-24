@@ -24,7 +24,7 @@ mode.fit(X_train, y_train, epochs=100, verbose=False, callbacks=[callback])
 
 Now deploy your model on a floydhub gpu/cpu and train it. Training metrics will be shown on the your floydhub jobs panel at real time
 ```
-floyd init
+floyd init <floydhub-project-id>
 floyd run --gpu --env keras "python your_script.py"
 ```
 
@@ -32,4 +32,12 @@ floyd run --gpu --env keras "python your_script.py"
 
 ## Example
 
-Clone this repository 
+[example.py](example.py) script defines a deep learning model to classify hand-written digits (it uses the well known MNIST image dataset) <br/>
+Execute the next code to deply and train the model on floyhub
+
+```
+git clone https://github.com/Vykstorm/floydhub-keras-metrics.git
+cd floydhub-keras-metrics
+floyd init <floydhub-project-id>
+floyd run --gpu --env keras "python example.py"
+```
