@@ -7,7 +7,7 @@ Metrics can later be visualized in your floydhub job panel under "Training metri
 
 ## Usage
 
-Copy the class FloydhubKerasCallback defined on [this file](metrics.py) to your model training script <br/>
+Copy the class FloydhubKerasCallback defined on [this file](train_metrics.py) to your model training script <br/>
 
 
 Then, instantiate the class and pass the object the 'callbacks' parameter when calling the method fit()
