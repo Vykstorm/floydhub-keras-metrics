@@ -3,6 +3,12 @@ from keras.callbacks import BaseLogger
 from json import JSONEncoder
 
 class FloydhubKerasCallback(BaseLogger):
+    '''
+    This class can be used as a callback object that can be passed to the method fit()
+    when training your model (inside 'callbacks' argument)
+    If it is used while your model is running on a floydhub server, training metrics
+    will be plotted at real time under the 'Training metrics' panel.
+    '''
     def __init__(self, mode='epoch', stateful_metrics=None):
         super().__init__(stateful_metrics)
 
