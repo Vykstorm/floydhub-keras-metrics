@@ -10,7 +10,7 @@ Metrics can later be visualized in your floydhub job panel under "Training metri
 Copy the class FloydhubKerasCallback defined on [this file](train_metrics.py) to your model training script <br/>
 
 
-Then, instantiate the class and pass the object the 'callbacks' parameter when calling the method fit()
+Then instantiate the class and pass the object to the 'callbacks' parameter when calling the method fit()
 
 ```python
 model = Sequential()
