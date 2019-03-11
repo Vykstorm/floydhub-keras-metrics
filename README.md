@@ -22,7 +22,7 @@ mode.fit(X_train, y_train, epochs=100, verbose=False, callbacks=[callback])
 
 ```
 
-Now deploy your model on a floydhub gpu/cpu and train it. Training metrics will be shown on the your floydhub jobs panel at real time
+Now deploy your model on a floydhub gpu/cpu and train it. Training metrics will be shown on the floydhub jobs panel at real time
 ```
 floyd init <floydhub-project-id>
 floyd run --gpu --env keras "python your_script.py"
